@@ -1,0 +1,98 @@
+.heading {
+    padding: 26px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    @include sm {
+        padding-top: 15px;
+    }
+    & .header__logo{
+        min-width: 357px;
+        @include lg{
+            min-width: 150px;
+        }
+        @include sm{
+            min-width: 150px;
+        }
+    }
+    @include mmd {
+        .navbar-toggler {
+            background: $primary;
+            padding: 6px;
+        }
+        .navbar-collapse {
+            background: $_141C24;
+            padding: 25px;
+            & .navbar-nav {
+                & a {
+                    border-bottom: 1px solid #f3f3f321;
+                    padding: 15px 0;
+                }
+            }
+        }
+        & .navbar-nav {
+            display: inherit;
+            & .boxed__btn {
+                margin-top: 15px;
+                display: inline-block;
+                @include mmd{
+                    padding: 15px 35px !important;
+                    margin-top: 20px;
+                }
+                @include sm{
+                    padding: 15px 25px !important;
+                    margin-top: 20px;
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+    & .container{
+        max-width: 1600px;
+    }
+    & .navbar-brand{
+        max-width: 136px;
+    }
+}
+
+.navbar-nav {
+    & a {
+        display: block;
+        color: $_white;
+        opacity: 0.7;
+        @include font-16;
+        padding:16px 20px;
+        cursor: pointer;
+        &:hover,
+        &.active,
+        &:focus {
+            color: $primary !important;
+        }
+    }
+    & .boxed__btn{
+        padding: 16px 40px;
+        border-radius: 40px;
+        border: 1.5px solid $_212B3A;
+        display: inline-block;
+        @include font-16;
+        font-weight: 500;
+        margin-right: 16px;
+        opacity: 1;
+        background-color: #141C24;
+        &:hover{
+            border: 1.5px solid $primary;
+            box-shadow: 1px 0px 10px 0px $primary;
+            color: $_white !important;
+        }
+    }
+}
+
+.heading.fixed{
+    position: fixed;
+    background-color: $_141C24;
+    padding: 10px 0;
+    transition: all .3s ease-in-out;
+    box-shadow: rgba(194, 194, 194, 0.03) 0px 3px 5px;
+}
