@@ -829,63 +829,63 @@ button.accordion-button {
     
 }
 
-@media(min-width:1280px) and (max-width:1350px) {
+@media(min-width:1279px) and (max-width:1350px) {
     .all_click_icons {
         & .nav-link {
             &:first-child {
-                top: 202px;
-                left: 38px;
+                top: 198px;
+                left: 37px;
             }
             &:nth-child(2) {
-                top: 397px;
-                left: 218px;
+                top: 386px;
+                left: 211px;
             }
             &:nth-child(3) {
-                top: 208px;
-                left: 406px;
+                top: 202px;
+                left: 394px;
             }
             &:last-child {
-                left: 215px;
+                left: 208px;
                 top: 31px;
             }
         }
         &#\31 {
             & .nav-link {
                 &:first-child {
-                    top: 34px;
-                    left: 205px;
+                    top: 32px;
+                    left: 199px;
                 }
                 &:nth-child(2) {
-                    top: 213px;
-                    left: 19px;
+                    top: 205px;
+                    left: 17px;
                 }
                 &:nth-child(3) {
-                    top: 401px;
-                    left: 209px;
+                    top: 388px;
+                    left: 203px;
                 }
                 &:nth-child(4) {
-                    top: 213px;
-                    left: 384px;
+                    top: 205px;
+                    left: 373px;
                 }
             }
         }
         &#\32 {
             & .nav-link {
                 &:first-child {
-                    top: 201px;
-                    left: 377px;
+                    top: 195px;
+                    left: 364px;
                 }
                 &:nth-child(2) {
-                    left: 204px;
-                    top: 14px;
+                    left: 197px;
+                    top: 13px;
                 }
                 &:nth-child(3) {
-                    top: 203px;
-                    left: 17px;
+                    top: 195px;
+                    left: 16px;
                 }
                 &:nth-child(4) {
-                    top: 380px;
-                    left: 204px;
+                    top: 370px;
+                    left: 198px;
                 }
             }
         }
@@ -893,23 +893,27 @@ button.accordion-button {
     &#\33 {
         & .nav-link {
             &:first-child {
-                top: 371px;
-                left: 209px;
+                top: 360px;
+                left: 202px;
             }
             &:nth-child(2) {
-                top: 199px;
-                left: 402px;
+                top: 191px;
+                left: 389px;
             }
             &:nth-child(3) {
-                top: 12px;
-                left: 213px;
+                top: 10px;
+                left: 208px;
             }
             &:nth-child(4) {
-                top: 200px;
-                left: 35px;
+                top: 194px;
+                left: 33px;
             }
         }
     }
+    }
+
+    .wallet__area .w_i {
+        max-width: 608px;
     }
 }
 
